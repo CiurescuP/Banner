@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+/* End Reset */ 
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.dowrap {
+    white-space: nowrap;
+    color:#348ada;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+body {
+    font-family: 'Silkscreen', sans-serif;
+    min-height: 100vh;
+}
+
+.life {
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: #546A7B;
+    background-image: url(background-pic.jpg);
+    background-repeat: round;
+}
+
+.h1 {
+    font-size: 270%;
+    color: #FFF;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.profile-pic {
+    width: 35%;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double #76bcf5 ;
+    border-image: linear-gradient(#97b8e4, #013a70) 30;
+}
